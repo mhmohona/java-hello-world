@@ -1,0 +1,24 @@
+{
+  "name": "Java Hello World Server",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "forwardPorts": [
+    8080
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "java.home": "/usr/local/openjdk-17",
+        "java.format.settings.url": "file://${workspaceFolder}/eclipse-formatter.xml",
+        "java.format.settings.profile": "MyProfile",
+        "java.checkProject": true,
+        "java.import.gradle.enabled": true
+      },
+      "extensions": [
+        "redhat.java",
+        "vscjava.vscode-java-pack",
+        "vscjava.vscode-java-test"
+      ]
+    }
+  },
+  "postCreateCommand": "./gradlew build"
+}
