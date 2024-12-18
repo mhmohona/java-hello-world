@@ -1,7 +1,6 @@
 # Sample Java HTTP Server
 
-A simple Java HTTP server demonstrating basic web server functionality using `com.sun.net.httpserver.HttpServer`. This sample project showcases creating a lightweight HTTP server with multiple endpoint handlers.
-
+Sample Java HTTP server demonstrating basic web server functionality using `com.sun.net.httpserver.HttpServer`. This sample project showcases creating a lightweight HTTP server with multiple endpoint handlers.
 ---
 
 ## 🚀 Getting Started
