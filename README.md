@@ -14,7 +14,7 @@ A simple Java HTTP server demonstrating basic web server functionality using `co
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/). 
 2. **Create the Workspace**: 
 ```bash
-daytona create <SAMPLE_REPO_URL>
+daytona create https://github.com/mhmohona/java-hello-world.git
 ```
 
 ### Running the Application
